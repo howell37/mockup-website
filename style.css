@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+}
+
+body {
+  margin: 0;
+}
+
+body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navdiv {
+  background-color: #31B0D5;
+}
+
+.navbar {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.topright-links {
+  display: flex;
+}
+
+#subbutton {
+  height: 70px;
+  width: 300px;
+  background-color: #14416b;
+}
+
+#track {
+  margin-top: 100px;
+  max-width: 500px;
+  color: white;
+  margin-left: 125px;
+}
+
+.slantcontainer {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 580px;
+
+
+
+}
+
+#phone {
+  /* max-width: 100px;
+  max-height: 100px;
+  background-color: inherit;
+  display: flex;
+  justify-content:flex-start;*/
+}
+
+#track h3 {
+  color: #14416b;
+}
+
+.slantcontainer::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #31B0D5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(-7deg);
+  z-index: -1;
+  max-height: 900px;
+
+
+}
+
+.middlediv {
+  display: flex;
+  padding-top: 50px;
+}
+
+#list-items {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 175px;
+  max-width: 1300px;
+
+  color: gray;
+}
+
+#list-items li {
+  list-style-type: none;
+  padding: 50px;
+}
+
+.border-top-0 {
+  border-right: 1px solid #31B0D5;
+}
+
+.workoutfeature {
+  display: flex;
+  border-top: 1px solid #31B0D5;
+  border-bottom: 1px solid #31B0D5;
+  background-color: rgb(247, 249, 249);
+  height: 1000px;
+  flex-direction: column;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 14px;
+}
+
+#dumbell {
+  border: 6px solid green;
+  border-radius: 52%;
+  width: 135px;
+  height: 120px;
+}
+
+#icons li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#trophy {
+  border: 6px solid red;
+  border-radius: 52%;
+  width: 135px;
+  height: 120px;
+}
+
+#spoon-fork {
+  border: 6px solid purple;
+  border-radius: 52%;
+  width: 135px;
+  height: 120px;
+}
+
+.lessweight {
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #31B0D5;
+  font-weight: 200;
+  padding-top: 75px;
+}
+
+.fitness-font {
+  font-size: 2.5rem;
+}
+
+.wkheader{
+  width: ;
+
+}
+.carouselkid li{
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+.carouselkid ul{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 88px;
+  flex-wrap: nowrap;
+}
+.carouselmaindiv{
+  width: 100vw;
+}
+
+.carouselkid {
+  width: 100vw;
+  max-height: 500px;
+
+}
+
+.carouselkid img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid yellow;
+  border-radius: 2%;
+
+}
+
+.carousel h2 {
+  text-align: center;
+  color: #31B0D5;
+}
+
+.getnow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 400px;
+  background-color: #31B0D5;
+  color: white;
+
+
+}
+#footer{
+  display: flex;
+  justify-content: space-around;
+
+}
+#bottom-links{
+  display:flex;
+  justify-content: space-around;
+
+}
+.getnow span h1{
+  font-size: 90px;
+  text-align: center;
+}
+
+
+
+footer{
+  background-color: rgb(10, 64, 71);
+
+}
+.getnow span:first-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.getnow span:last-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.line{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  height: 140px;
+  width: 100px;
+  border-right: 1px solid orange;
+}
+.phoneimg{
+  padding-top: 3px;
+}
+#lastborder{
+  border: none;
+}
+.border-top-0{
+  height:250;
+}
+#footer span{
+  color: white;
+  align-self: center;
+}
+#dumbell_img{
+  margin-top: 18px;
+}
+#spoonforkimg{
+  margin-top: 29px;
+}
+#trophyimg{
+  margin-top:29px;
+}
+.performnaceimg{
+  padding:80px;
+  margin-top: 1px;
+}
